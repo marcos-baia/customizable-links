@@ -8,8 +8,12 @@ body {
   * Vamos realizar o agrupamento
   * background: color image repeat position/size  
   */
-  background: url(./assets/bg-mobile-dark.jpg) no-repeat top center/cover;
+  background: url(./assets/bg-mobile-dark.jpg) no-repeat top center/cover;  
+}
 
-  
-  
+#container {
+  width: 360px;
+  height: 712px;
+  border: 1px solid red;
+
 }
