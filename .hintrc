@@ -12,5 +12,13 @@
     "not firefox <= 107",
     "not opera <= 92",
     "not samsung <= 19"
-  ]
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
+  }
 }
