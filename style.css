@@ -9,6 +9,7 @@
   --bg-url:url(./assets/bg-mobile-dark.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color:rgba(255, 255, 255, 0.1);
+  --surface-color-hover: rgba(255,255,255, 0.5);
 }
 
 .light {
@@ -16,6 +17,7 @@
   --bg-url:url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color:rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
 }
 
 
@@ -85,7 +87,7 @@ ul li a{
 }
 
 ul li a:hover {
-  background-color: rgba(255,255,255, 0.5);
+  background-color: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
 
