@@ -1,16 +1,19 @@
-:root {
-  --text-color:white;
-}
-
-.light {
-  --text-color:black;
-}
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --text-color:white;
+  --bg-url:url(./assets/bg-mobile-dark.jpg);
+}
+
+.light {
+  --text-color:black;
+  --bg-url:url(./assets/bg-mobile-light.jpg);
+}
+
 
 body * {
   font-family: 'Inter', sans-serif;
@@ -27,7 +30,7 @@ body {
   * Vamos realizar o agrupamento
   * background: color image repeat position/size  
   */
-  background: url(./assets/bg-mobile-dark.jpg) no-repeat top center/cover;  
+  background: var(--bg-url) no-repeat top center/cover;  
 }
 
 #container {
