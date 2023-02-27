@@ -7,11 +7,15 @@
 :root {
   --text-color:white;
   --bg-url:url(./assets/bg-mobile-dark.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color:rgba(255, 255, 255, 0.1);
 }
 
 .light {
   --text-color:black;
   --bg-url:url(./assets/bg-mobile-light.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color:rgba(0, 0, 0, 0.05);
 }
 
 
@@ -70,8 +74,8 @@ ul li a{
   justify-content: center;
 
   padding: 16px 24px;
-  background: rgba(255,255,255, 0.1);
-  border: 1px solid rgba(255,255,255, 0.5);
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
   border-radius: 8px;
 
   text-decoration: none;
